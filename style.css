@@ -189,3 +189,27 @@ float:left;
     font-weight: bolder;
     color: aqua;
 }
+
+.my-blogs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:20px;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width:576px){
+    
+    .projects-skills{
+        grid-template-columns: auto ;
+    }
+    
+    .projects{
+        grid-template-columns: auto;
+
+    }
+
+    .my-blogs{
+        grid-template-columns: auto;
+
+    }
+}
